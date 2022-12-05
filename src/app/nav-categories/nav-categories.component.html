@@ -1,0 +1,6 @@
+<div class="categories-container">
+    <div (click)="getCategory(item)" *ngFor="let item of categories;let i = index;" class="item">
+        <img  src={{item_images[i]}} alt="category-item" width="70px" height="70px">
+        <p>{{item}}</p>
+    </div>
+</div>
