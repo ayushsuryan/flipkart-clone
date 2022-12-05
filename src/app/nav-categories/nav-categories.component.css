@@ -4,7 +4,7 @@
     display: grid;
     grid-template-columns: repeat(10,1fr);
     padding: 0px 300px;
-    border-bottom: 1px gray solid;
+    border-bottom: 1px #DCDFE1 solid;
     align-items: center;
 }
 .item{
