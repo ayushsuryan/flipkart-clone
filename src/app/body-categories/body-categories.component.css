@@ -4,6 +4,8 @@
     margin: 5px auto;
     background-color: white;
     border: 1px #DCDFE1 solid;
+    display: grid;
+    grid-template-columns: 230px 1fr;
 }
 .category-brand{
     display: flex;
