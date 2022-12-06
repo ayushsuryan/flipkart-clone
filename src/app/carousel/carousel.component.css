@@ -1,0 +1,19 @@
+.carousel{
+    width: 85%;
+    height: 280px;
+    margin: 5px auto;
+}
+.carousel-control-prev{
+    border-radius: 0px 10px 10px 0px;
+}
+.carousel-control-next{
+    border-radius: 10px 0px 0px 10px;
+}
+.test{
+    width: 40px;
+    height: 100px;
+    background-color: white;
+    color: black;
+    opacity: 1;
+    top: 80px;
+}

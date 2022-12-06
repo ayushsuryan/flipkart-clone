@@ -27,7 +27,6 @@ export class NavCategoriesComponent implements OnInit {
     fetch('https://dummyjson.com/products/categories')
     .then(res => res.json())
     .then(j => {
-      console.log(j);
       this.categories=j.slice(0, 10);
     });
   }
