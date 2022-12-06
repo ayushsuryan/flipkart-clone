@@ -1,0 +1,17 @@
+.body-category-container{
+    width: 85%;
+    height: 350px;
+    margin: 5px auto;
+    background-color: white;
+    border: 1px #DCDFE1 solid;
+}
+.category-brand{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 230px;
+    height: 100%;
+    background-image: url(https://rukminim1.flixcart.com/fk-p-flap/278/278/image/7593e7b6640822c1.jpg?q=90);
+    background-position: 0px bottom;
+    background-repeat: no-repeat;
+}
