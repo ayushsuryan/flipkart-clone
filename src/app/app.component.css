@@ -1,4 +1,5 @@
-.container{
+.container-app{
     display: grid;
-    grid-template-rows: 56px auto;
+    grid-template-rows: 56px 115px;
+    background-color: rgb(240,242,246);
 }
