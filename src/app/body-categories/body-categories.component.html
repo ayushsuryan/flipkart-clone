@@ -1,5 +1,9 @@
 <div *ngFor="let item of productCategories; index as i;" class="body-category-container">
     <div class="category-brand">
-        <p>Best of <br> {{item[0].toUpperCase()}}{{item.slice(1)}} </p>
+        <div class="category-brand-item">
+            <p>Best of <br> {{item[0].toUpperCase()}}{{item.slice(1)}} </p>
+            <button class="btn btn-primary">VIEW ALL</button>
+        </div>
+        
     </div>
 </div>

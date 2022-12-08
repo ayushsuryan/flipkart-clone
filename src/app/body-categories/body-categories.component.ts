@@ -16,7 +16,6 @@ export class BodyCategoriesComponent implements OnInit {
     .then(res => res.json())
     .then(j => {
       this.productCategories = j;
-      console.log(j)
     });
   }
 
