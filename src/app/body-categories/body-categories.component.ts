@@ -18,5 +18,8 @@ export class BodyCategoriesComponent implements OnInit {
       this.productCategories = j;
     });
   }
+  viewAll(item:any){
+    console.log(item)
+  }
 
 }

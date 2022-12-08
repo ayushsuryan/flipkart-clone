@@ -2,7 +2,7 @@
     <div class="category-brand">
         <div class="category-brand-item">
             <p>Best of <br> {{item[0].toUpperCase()}}{{item.slice(1)}} </p>
-            <button class="btn btn-primary">VIEW ALL</button>
+            <button (click)="viewAll(item)" class="btn btn-primary">VIEW ALL</button>
         </div>
         
     </div>
