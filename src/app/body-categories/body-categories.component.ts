@@ -9,7 +9,15 @@ export class BodyCategoriesComponent implements OnInit {
 
   constructor() { }
 
+  productCategories : any;
+
   ngOnInit(): void {
+    fetch('https://dummyjson.com/products/categories')
+    .then(res => res.json())
+    .then(j => {
+      this.productCategories = j;
+      console.log(j)
+    });
   }
 
 }

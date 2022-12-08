@@ -1,5 +1,5 @@
-<div class="body-category-container">
+<div *ngFor="let item of productCategories; index as i;" class="body-category-container">
     <div class="category-brand">
-        <p>Ayush</p>
+        <p>Best of <br> {{item[0].toUpperCase()}}{{item.slice(1)}} </p>
     </div>
 </div>
