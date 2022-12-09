@@ -33,6 +33,10 @@
     justify-content: center;
     width: 230px;
     height: 350px ;
+    cursor: pointer;
+}
+.body-category-products:hover{
+    transform: scale(1.1);
 }
 
 .item-product-image{
