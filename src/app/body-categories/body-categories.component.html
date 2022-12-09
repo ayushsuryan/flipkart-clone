@@ -1,9 +1,14 @@
 <div *ngFor="let item of productCategories; index as i;" class="body-category-container">
     <div class="category-brand">
         <div class="category-brand-item">
-            <p>Best of <br> {{item[0].toUpperCase()}}{{item.slice(1)}} </p>
+            <p>Best of <br>{{item.categoryTitle[0].toUpperCase()}}{{item.categoryTitle.slice(1)}} </p>
             <button (click)="viewAll(item)" class="btn btn-primary">VIEW ALL</button>
         </div>
-        
+    </div>
+    <div  *ngFor="let items of item.products;" class="body-category-products">
+        <img class="item-product-image" src={{items.imgSrc}} alt="Image-Products" width="auto" height="200px" >
+        <span>{{items.productTitle}}</span>
+        <span>{{items.price}}</span>
+        <span>{{items.brand}}</span>
     </div>
 </div>
