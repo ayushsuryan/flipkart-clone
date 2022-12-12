@@ -4,9 +4,11 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
-import { NavCategoriesComponent } from './nav-categories/nav-categories.component';
-import { CarouselComponent } from './carousel/carousel.component';
-import { BodyCategoriesComponent } from './body-categories/body-categories.component';
+import { NavCategoriesComponent } from './home/nav-categories/nav-categories.component';
+import { CarouselComponent } from './home/carousel/carousel.component';
+import { BodyCategoriesComponent } from './home/body-categories/body-categories.component';
+import { HomeComponent } from './home/home.component';
+import { CartComponent } from './cart/cart.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +16,9 @@ import { BodyCategoriesComponent } from './body-categories/body-categories.compo
     HeaderComponent,
     NavCategoriesComponent,
     CarouselComponent,
-    BodyCategoriesComponent
+    BodyCategoriesComponent,
+    HomeComponent,
+    CartComponent
   ],
   imports: [
     BrowserModule,
